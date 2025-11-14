@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>期中個人履歷網站</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+
+  <!-- radio 控制切換 -->
+  <input type="radio" name="content" id="career" checked>
+  <input type="radio" name="content" id="interest">
+  <input type="radio" name="content" id="skill">
+
+  <section class="page-wrap">
+    <section class="grid-wrap">
+
+      <!-- 左側個資 -->
+      <aside class="left-panel">
+        <section class="photo">
+          <img src="image/頭貼.jpg" alt="個人照片">
+        </section>
+
+        <section class="name"><h1>楊育霖</h1></section>
+
+        <section>
+          <p>學經歷：中原大學 資訊管理學系</p>
+          <p>出生年月日：2005/10/04</p>
+          <p>聯絡方式：eric.ceo1004@gmail.com</p>
+        </section>
+
+        <section class="intro">
+          <h2>自我介紹</h2>
+          <p>我是一個喜歡學習、充滿好奇心的人，對新知識與新技術都保持著探索的態度。平常我喜歡透過實作累積經驗，遇到問題時也會努力找出更好的解決方法。</p>
+        </section>
+      </aside>
+
+      <!-- 右側主要內容 -->
+      <article class="main-content">
+
+        <!-- 垂直按鈕 -->
+        <nav class="inner-side-nav">
+          <label for="career">關於我</label>
+          <label for="interest">個人履歷</label>
+          <label for="skill">專業能力程度量表</label>
+        </nav>
+
+        <!-- 大框內容 -->
+        <section class="content-box">
+
+          <section class="content content1">
+            <h1>關於我 </h1>
+            <p>大家好，我是楊育霖，朋友都叫我ㄌㄌ，目前就讀中原大學資訊管理學系。</p>
+            <p>我對科技、程式與實作特別有熱情，喜歡把想法透過程式碼或工具變成真正能運作的東西。最近我主要在學Unity以及像素美術，正在試著獨立開發一款像素風格的卡牌遊戲，從圖片動畫、敵人AI等等，我都一步一步親手嘗試。雖然常常遇到bug，但我反而很享受解決問題的過程。</p>              
+            <p>我是那種遇到不會的東西就會自己查、自己試，到弄懂為止的人。做作業、寫專案、或寫程式時，我會習慣拆解問題、找出邏輯，讓複雜的事變得清楚。
+              在團隊合作上，我也很重視溝通，希望能讓整個小組的效率和成果都變得更好。</p>
+              
+              未來，我希望能在資訊技術或遊戲開發的領域中找到自己的位置，不管是做系統、做資料分析，或是做遊戲，我都希望能持續學習、持續成長，也期待能和更多同樣熱愛技術的人一起合作。</p>
+          </section>
+
+          <section class="content content2">
+            <h1>個人經歷</h1>
+            <p>以下三張圖片為我高中階段參與活動、技能檢定與課程所取得的證照與證書。</p>
+            <p>它們象徵了我在不同領域中的投入與成果，我也特別挑選了對自身意義較深的三張，以呈現當時的經驗與收穫。</p>
+            <div class="interest-images">
+              <img src="image/全國高中職虛擬交易證書.png" alt="證明圖片1">
+              <img src="image/全民中文能力檢定證書.png" alt="證明圖片2">
+              <img src="image/證書.png" alt="證明圖片3">
+            </div>
+          </section>
+
+          <!-- 專業能力頁 -->
+          <section class="content content3">
+            <h1>專業能力程度量表</h1>
+
+            <div class="skill-bars">
+
+              <div class="bar">
+                <div class="progress python"></div>
+                <div class="percent python-text">80%</div>
+                <div class="label">Python</div>
+              </div>
+
+              <div class="bar">
+                <div class="progress java"></div>
+                <div class="percent java-text">75%</div>
+                <div class="label">Java</div>
+              </div>
+
+              <div class="bar">
+                <div class="progress css"></div>
+                <div class="percent css-text">85%</div>
+                <div class="label">CSS</div>
+              </div>
+
+            </div>
+          </section>
+
+        </section>
+      </article>
+
+    </section>
+
+    <footer>
+      <p>© 2025 ㄌㄌ All Rights Reserved.</p>
+    </footer>
+
+  </section>
+
+</body>
+</html>
