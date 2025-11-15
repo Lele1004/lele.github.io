@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>期中個人履歷網站</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+
+  <!-- radio 控制切換 -->
+  <input type="radio" name="content" id="career" checked>
+  <input type="radio" name="content" id="interest">
+  <input type="radio" name="content" id="skill">
+  <input type="radio" name="content" id="secret">
+
+  <section class="page-wrap">
+    <section class="grid-wrap">
+
+      <!-- 左側個資 -->
+      <aside class="left-panel">
+        <section class="photo">
+          <img src="image/頭貼.jpg" alt="個人照片">
+        </section>
+
+        <section class="name">
+          <h1>楊育霖</h1>
+        </section>
+
+        <section>
+          <p>學經歷：中原大學 資訊管理學系</p>
+          <p>出生年月日：2005/10/04</p>
+          <p>聯絡方式：eric.ceo1004@gmail.com</p>
+        </section>
+
+        <section class="intro">
+          <h2>自我介紹</h2>
+          <p>我是一名資管系的學生，平常不讀書都在打麻將，半夜三點才回家，我決定睡覺了。但是發現被子有點短，於是不斷的調整被子，可不管怎麼調整，被子總是短一截。我終於明白，我再繼續糜爛，這輩子也就這樣了。</p>
+        </section>
+      </aside>
+
+      <!-- 右側主要內容 -->
+      <article class="main-content">
+
+        <!-- 垂直按鈕 -->
+        <nav class="inner-side-nav">
+          <label for="career">關於我</label>
+          <label for="interest">個人履歷</label>
+          <label for="skill">專業能力程度量表</label>
+        </nav>
+
+        <!-- 大框內容 -->
+        <section class="content-box">
+
+          <section class="content content1">
+            <h1>關於我 </h1>
+            <p>大家好，我是楊育霖，朋友都叫我ㄌㄌ，目前就讀中原大學資訊管理學系。平時喜歡玩吉他，之前當過吉他社社長。</p>
+            <p>我對科技、程式與實作特別有熱情，喜歡把想法透過程式碼或工具變成真正能運作的東西。
+            <p>最近我主要在學Unity以及像素美術，正在試著獨立開發一款像素風格的卡牌遊戲。</p> 
+              <!-- 新增照片區塊 -->
+            <div class="about-images">
+              <div class="about-block">
+                <p class="about-desc">舉辦社團活動</p>
+                <img src="image/校內迎新社幹合照.jpg" alt="關於我照片1">
+              </div>
+              <div class="about-block">
+                <p class="about-desc">社團表演過程</p>
+                <img src="image/教師節活動表演照.jpg" alt="關於我照片2">
+              </div>
+            </div>       
+          </section>
+
+          <section class="content content2">
+            <h1>個人經歷</h1>
+              <div class="interest-images">
+                <div class="image-block">
+                <p class="image-desc">此為高中所參加的虛擬交易競賽，我特意學習了股票觀念和投資策略，提高了對股票市場的了解，並學會如何降低風險。 </p>
+                <img src="image/全國高中職虛擬交易證書.png" alt="證明圖片1">
+                </div>
+
+                <div class="image-block">
+                <p class="image-desc">此為TQC企業人才技能合格證書，這是等級最高的「專業級」為此學了不少文書處理的知識，最終成功考取。</p>
+                <img src="image/Word 專業級.png" alt="證明圖片2">
+                </div>
+
+                <div class="image-block">
+                <p class="image-desc">這是竹縣政府邀請各學校的社團聯合展演，此為當時我們參加的證書，在那時我學會了學習如何克服緊張，分享熱情和努力。</p>
+                <img src="image/證書.png" alt="證明圖片3">
+                </div>
+            </div>
+          </section>
+
+          <!-- 專業能力頁 -->
+          <section class="content content3">
+            <h1>專業能力程度量表</h1>
+
+            <div class="skill-bars">
+              <div class="bar">
+                <div class="progress python"></div>
+                <div class="percent python-text">80%</div>
+                <div class="label">Python</div>
+              </div>
+
+              <div class="bar">
+                <div class="progress java"></div>
+                <div class="percent java-text">75%</div>
+                <div class="label">Java</div>
+              </div>
+
+              <div class="bar">
+                <div class="progress css"></div>
+                <div class="percent css-text">85%</div>
+                <div class="label">CSS</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="content content4">
+            <h1>老師、助教好 恭喜發現大秘寶</h1>
+              <video class="secret-video" controls autoplay muted>
+              <source src="video/784916725.022367.mp4" type="video/mp4">
+              你的瀏覽器不支援影片播放
+              </video>
+          </section>
+        </section>
+      </article>
+    </section>
+
+    <footer>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/_yl.1004/" target="_blank">Instagram</a> |
+        <a href="https://www.facebook.com/yang.le.le.445448/?locale=zh_TW" target="_blank">Facebook</a> |
+        <a href="mailto:eric.ceo1004@gmail.com">Email</a>
+        <!-- 彩蛋按鈕 -->
+        <label for="secret" class="secret-btn">　　　</label>
+      </div>
+    </footer>
+
+  </section>
+
+</body>
+</html>
